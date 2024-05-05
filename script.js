@@ -82,4 +82,6 @@ function createPost(title, content) {
 
   //////////////////////////////////////////////////////////////
 
-  
+  function button() {
+    document.getElementById("lemons").setAttribute("class", "lemonColor")
+  }
