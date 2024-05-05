@@ -10,3 +10,9 @@ document.querySelector("h3").innerHTML = "<strong>Age</strong> and <strong>Gende
 
 let best = document.getElementById("myList").firstChild.innerHTML;
 document.getElementById("theBest").innerHTML = best;
+
+const p = document.createElement("p");
+const pText = document.createTextNode("Now doesn't look so refreshing? I nice tall glass of water will definitely uplift anyones day!");
+
+p.appendChild(pText);
+document.getElementById("waterGlass").appendChild(p);
