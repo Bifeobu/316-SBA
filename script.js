@@ -21,11 +21,6 @@ function createPost(title, content) {
     // Creating a DocumentFragment
     const frag = document.createDocumentFragment();
   
-    // Anything we do to the fragment here is not
-    // processed in the live view of the document.
-    // This allows for processing-heavy DOM changes
-    // to occur without interrupting user experience.
-    // These, however, are rather simple operations.
     const heading = frag.appendChild(document.createElement("h3"));
     heading.textContent = title;
     heading.style.margin = "0px";
@@ -44,26 +39,26 @@ function createPost(title, content) {
   const posts = [
     {
       id: 0,
-      title: "Functions",
-      content: "Functions are the building blocks of code!"
+      title: "Fact #2",
+      content: "Water is composed of two elements, Hydrogen and Oxygen. 2 Hydrogen + 1 Oxygen = H2O."
     },
     {
       id: 1,
-      title: "Loops",
-      content: "Helps with sticking to the DRY principle. Do repetive tasks"
+      title: "Fact #3",
+      content: "75% of the human brain is water and 75% of a living tree is water."
     },
     {
       id: 2,
-      title: "Variables",
-      content: "How we store values in memory"
+      title: "Fact #4",
+      content: "A person can live about a month without food, but only about a week without water."
     },
     {
       id: 3,
-      title: "Arrays",
-      content: "If we know arrays, hopefully we'll get a raise"
+      title: "Fact #5",
+      content: "Water expands by 9% when it freezes. Frozen water (ice) is lighter than water, which is why ice floats in water."
     },
   ]
-  const post1 = createPost("DOM", "We learning about the DOM and it's fun. Also this cohort rocks!")
+  const post1 = createPost("Fact #1", "There is the same amount of water on Earth as there was when the Earth was formed. The water from your faucet could contain molecules that dinosaurs drank")
 //   console.log(post1)
   
   document.body.appendChild(post1)
