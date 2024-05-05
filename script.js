@@ -18,7 +18,7 @@ p.appendChild(pText);
 document.getElementById("waterGlass").appendChild(p);
 
 function createPost(title, content) {
-    // Creating a DocumentFragment
+    
     const frag = document.createDocumentFragment();
   
     const heading = frag.appendChild(document.createElement("h3"));
