@@ -24,3 +24,10 @@ body > h1 {
 h3 {
     text-align: center;
 }
+
+.glass {
+    position: relative;
+    left: 37%;
+    height: 300px;
+    width: 350px;
+}
