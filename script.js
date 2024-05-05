@@ -1,3 +1,3 @@
-// const openerText = document.getElementById("opener");
+const openerText = document.getElementById("opener");
 
-// openerText.style.height = "100%"
+openerText.style.color = "white"
