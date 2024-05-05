@@ -2,22 +2,22 @@ const openerText = document.getElementById("opener");
 
 openerText.style.color = "white";
 
-///////////////
+//////////////////////////////////////////////////////////////
 
 const percentage = document.getElementById("percentage");
 
 percentage.style.textAlign = "center";
 
-////////////////
+//////////////////////////////////////////////////////////////
 
 document.querySelector("h4").innerHTML = "<strong>Age</strong> and <strong>Gender</strong> play a huge roll because...um well...I have no clue just know it's <i>IMPORTANT!</i>"
 
-////////////////
+//////////////////////////////////////////////////////////////
 
 let best = document.getElementById("myList").firstChild.innerHTML;
 document.getElementById("theBest").innerHTML = best;
 
-////////////////
+//////////////////////////////////////////////////////////////
 
 const p = document.createElement("p");
 const pText = document.createTextNode("Now doesn't this look so refreshing? A nice, tall glass of water will definitely uplift anyones day!");
@@ -25,7 +25,7 @@ const pText = document.createTextNode("Now doesn't this look so refreshing? A ni
 p.appendChild(pText);
 document.getElementById("waterGlass").appendChild(p);
 
-////////////////
+//////////////////////////////////////////////////////////////
 
 function createPost(title, content) {
     
@@ -37,7 +37,7 @@ function createPost(title, content) {
   
     frag.appendChild(document.createElement("hr"));
   
-    const div = frag.appendChild(document.getElementById("funFts"));
+    const div = frag.appendChild(document.createElement("div"));
     div.style.padding = "0px 15px";
     div.style.marginBottom = "50px";
   
@@ -79,3 +79,7 @@ function createPost(title, content) {
   
     document.body.appendChild(post)
   }
+
+  //////////////////////////////////////////////////////////////
+
+  
