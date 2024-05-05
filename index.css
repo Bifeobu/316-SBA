@@ -48,8 +48,12 @@ h4 {
 }
 
 .form {
+    position: relative;
     border: 1px solid black;
     padding: 20px;
     height: 200px;
     width: 250px;
+    text-align: center;
+    left: 75%;
+    background-color: lightslategrey;
 }
