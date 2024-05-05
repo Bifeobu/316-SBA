@@ -6,5 +6,5 @@ const percentage = document.getElementById("percentage");
 
 percentage.style.textAlign = "center"
 
-const newP = document.createElement("p");
+
 
