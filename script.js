@@ -85,3 +85,13 @@ function createPost(title, content) {
   function button() {
     document.getElementById("lemons").setAttribute("class", "lemonColor")
   }
+
+  //////////////////////////////////////////////////////////////
+
+  const endForm = document.getElementById('endForm');
+
+  endForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    
+    alert(`Thank you for the review ${endForm.querySelector('input').value}!`);
+  });
