@@ -91,7 +91,8 @@ function createPost(title, content) {
     } else {
         message = "Aww man, you're missing out";
     }
-  }
+    document.getElementById("uni").innerHTML = message;
+  };
 
   //////////////////////////////////////////////////////////////
 
