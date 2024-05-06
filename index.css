@@ -57,3 +57,12 @@ h4 {
     left: 75%;
     background-color: rgb(150, 189, 229);
 }
+
+.gif {
+    position: relative;
+    /* border: 1px solid black; */
+    padding: 30px;
+    left: 100px;
+    /* height: 200px;
+    width: 300px; */
+}
