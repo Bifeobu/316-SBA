@@ -95,3 +95,11 @@ function createPost(title, content) {
     
     alert(`Thank you for the review ${endForm.querySelector('input').value}!`);
   });
+
+  //////////////////////////////////////////////////////////////
+
+  const btn = document.getElementById("btn");
+
+  btn.addEventListener('mouseover', (e) => {
+    document.getElementById("mouseover").innerHTML += "Don't be shy, click me :)<br>"
+  })
