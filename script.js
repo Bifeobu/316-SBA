@@ -25,6 +25,8 @@ const pText = document.createTextNode("Now doesn't this look so refreshing? A ni
 p.appendChild(pText);
 document.getElementById("waterGlass").appendChild(p);
 
+pText.style.textAlign = "center"
+
 //////////////////////////////////////////////////////////////
 
 function createPost(title, content) {
