@@ -89,7 +89,7 @@ function createPost(title, content) {
     if (confirm("Yayyy you clicked me")) {
         message = "IT CHANGED COLOR!";
     } else {
-        message = "Aww man, you're missing out";
+        message = "Still changed color, but why cancel? :(";
     }
     document.getElementById("uni").innerHTML = message;
   };
