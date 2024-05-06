@@ -84,6 +84,13 @@ function createPost(title, content) {
 
   function button() {
     document.getElementById("lemons").setAttribute("class", "lemonColor")
+
+    let message;
+    if (confirm("Yayyy you clicked me")) {
+        message = "IT CHANGED COLOR!";
+    } else {
+        message = "Aww man, you're missing out";
+    }
   }
 
   //////////////////////////////////////////////////////////////
@@ -101,6 +108,6 @@ function createPost(title, content) {
   const btn = document.getElementById("btn");
 
   btn.addEventListener('mouseover', (e) => {
-    document.getElementById("mouseover").innerHTML += "Don't be shy, click me :)<br>"
+    document.getElementById("uni").innerHTML += "Don't be shy, click me :)<br>"
 
   });
