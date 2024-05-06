@@ -102,4 +102,5 @@ function createPost(title, content) {
 
   btn.addEventListener('mouseover', (e) => {
     document.getElementById("mouseover").innerHTML += "Don't be shy, click me :)<br>"
-  })
+
+  });
